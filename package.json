@@ -1,0 +1,21 @@
+{
+  "name": "fetch_dog_data",
+  "version": "1.0.0",
+  "description": "Use JavaScript Fetch API to retrive data from the Dog API. Then process and display this data in a web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "\"Fetch\"",
+    "\"API\"",
+    "\"Express\""
+  ],
+  "author": "\"Xinran Zhang\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

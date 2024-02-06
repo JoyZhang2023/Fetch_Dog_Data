@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Setting the pages character encoding -->
+	<meta charset="UTF-8">
+
+	<!-- The meta viewport will scale my content to any device width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link to my stylesheet -->
+	<link rel="stylesheet" type="text/css" href="public/styles.css" media="screen, projection"/>
+	<title>Dog API Fetch</title>
+</head>
+<body>
+	<h1>Dog Breed from Dog API</h1>
+	<h3>Part 1: List of Dog Breeds:</h3>
+	<p3><ul>
+		<!-- List of breed name -->
+	</ul></p3>
+	<h3>Part 4: Select breed for description</h3>
+	<select id="breeds">
+		<!-- Interactive breed selection-->
+	</select>
+	<button id="submit" type="submit">submit</button>
+	<p2>
+		<br>
+		<!-- selected breed description -->
+	</p2>
+	<h3>Part 5: Random Dog Fact and Groups</h3>
+	<h4>Random Dog Facts</h4>
+	<p3 id="facts">
+		<br>
+		<!-- random dog facts -->
+	</p3>
+	<h4>Dog Groups</h4>
+	<p3 id="groups">
+		<br>
+		<!-- list of dog groups-->
+	</p3>
+	<h3>Part 3: Display Breed Information</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Life</th>
+			</tr>
+		</thead>
+		<tbody id="data-output"> 
+			<!-- Prodcuts from Javascript file in here. -->
+		</tbody>
+	</table>
+
+	<script src="/public/fetchDog.js" type="text/javascript"></script> <!-- Link to the javascript file -->
+</body>
+</html>
