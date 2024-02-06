@@ -6,7 +6,6 @@ const app = express();
 app.set('port', process.env.PORT || 3000);
 
 
-
 // read html file
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -43,6 +42,3 @@ app.use((req,res) => {
 app.listen(app.get('port'), ()=> {
     console.log("Express Server is running");
 });
-
-// middleware & static files
-//app.use(express.static('public'));
