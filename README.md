@@ -16,3 +16,7 @@ Part 1: List of Dog Breeds
 Part 4: Description of selected breed
 Part 5: Random dog fact and dog groups
 Part 3: Table of dog breed information
+
+# Screenshot
+![Dog API Fetch](https://github.com/JoyZhang2023/Fetch_Dog_Data/assets/137982978/037dfab3-ff7c-41ec-aef3-768584220fee)
+
