@@ -1,5 +1,4 @@
 
-// document.getElementById("data-output").innerHTML = "js file loading";
 // Fetch dog breed list from Dog API
 const input = "https://dogapi.dog/api/v2/breeds";
 
